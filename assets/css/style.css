@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}h1{
+    font-size: 50px;
+    font-family: "Caveat";
+    color: #017A1C;    
+}
+h2{
+    font-size: 60px;
+    font-family: "Bebas Neue";
+}
+h3{
+    font-size: 20px;
+    color: #017A1C;
+}
+.Contacto{
+    border: solid 1px #017A1C;
+    border-radius: 15px;
+    background-color:gainsboro;
+}
+.btn{
+    background-color:#017A1C ;
+    border-radius: 15px;
+}
+.footer{
+    background-color: #017A1C;
+    color: white;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
