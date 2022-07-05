@@ -51,11 +51,13 @@ h3{
 .footer{
     background-color: #017A1C;
     color: white;
-    padding: 10px;
+    padding: 15px;
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
 @media(max-width:576px){
 
     .imgAzucar:hover{
