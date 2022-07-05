@@ -7,7 +7,7 @@
 }h1{
     font-size: 50px;
     font-family: "Caveat";
-    color: #017A1C;    
+    color: #017A1C;   
 }
 h2{
     font-size: 60px;
@@ -17,6 +17,22 @@ h3{
     font-size: 20px;
     color: #017A1C;
 }
+.imgAzucar:hover{
+    transform: translate(10px,10px) scale(1.05);
+    transition: 1s ;
+}
+.imgMaiz:hover{
+    transform: translate(-10px,10px) scale(1.05);
+    transition: 1s ;
+}
+.imgAlimento:hover{
+    transform: translate(10px,-10px) scale(1.05);
+    transition: 1s ;
+}
+.imgSnacks:hover{
+    transform: translate(-10px,-10px) scale(1.05);
+    transition: 1s ;
+}
 .Contacto{
     border: solid 1px #017A1C;
     border-radius: 15px;
@@ -25,6 +41,12 @@ h3{
 .btn{
     background-color:#017A1C ;
     border-radius: 15px;
+    color: white;    
+}
+.btn:hover{
+    box-shadow: 9px 7px 16px 6px rgba(0,0,0,0.54);
+    background-color: #2D9142;
+    border: 1px solid #2D9142;
 }
 .footer{
     background-color: #017A1C;
@@ -34,3 +56,18 @@ h3{
     display: flex;
     align-items: center;
 }
+@media(max-width:576px){
+
+    .imgAzucar:hover{
+        transform: translate(0px);
+    }
+    .imgMaiz:hover{
+        transform: translate(0px);
+    }
+    .imgAlimento:hover{
+        transform: translate(0px);
+    }
+    .imgSnacks:hover{
+        transform: translate(0px);
+    }
+}    

@@ -7,6 +7,7 @@
     <title>Nosotros</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="container-fluid">
@@ -46,8 +47,14 @@
 
     <main>
       <div class="row text-center align-items-center mb-3" >
-        <p class="col-12 col-md-5 col-xl-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
-        <div class="col-12 col-md-5 col-xl-6"><img class="img-fluid" src="../assets/img/Nosotros.jpeg" alt=""></div>
+        <p data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" 
+        data-aos-duration="800" data-aos-delay="800" class="col-12 col-md-5 col-xl-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt veniam cum eum laboriosam beatae doloremque praesentium quis quaerat, ad nisi, dolorem deleniti aliquid reiciendis suscipit vero alias quibusdam rem eaque commodi cupiditate consequuntur odio. Dicta deleniti reiciendis vel inventore expedita dolore deserunt ipsum, doloremque at alias, rerum maiores porro ex dolorum voluptatibus aperiam quaerat veniam atque quis. Delectus nisi exercitationem natus fuga adipisci aut corrupti totam eveniet quisquam voluptas! Blanditiis est dolorem sed quasi dolorum vel perspiciatis asperiores iusto rerum, autem nihil tempore eos cum velit officia magni nemo quam reiciendis obcaecati at! Nisi sint dignissimos suscipit cumque ea nemo?</p>
+        <div class="col-12 col-md-5 col-xl-6"><img data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="1000" data-aos-delay="1800" class="img-fluid" src="../assets/img/Nosotros.jpeg" alt=""></div>
       </div>
     </main> 
 
@@ -58,5 +65,9 @@
     </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
